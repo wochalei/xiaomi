@@ -1,0 +1,21 @@
+.carousel-dot{
+     left: 1100px;
+     top: -70px;
+    position: relative;
+    height: 10px;
+}
+.carousel-dot-item{
+    float: left;
+    width: 6px;
+    height: 6px;
+    background-color: #666;
+    border-radius: 50%;
+    border: 2px solid #999;
+    margin: 0 4px;
+}
+.carousel-dot-item:hover{
+    background-color: #fff;
+}
+.choose{
+    background-color: #fff;
+}

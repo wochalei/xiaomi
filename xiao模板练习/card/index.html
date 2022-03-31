@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/card-item.css">
+</head>
+
+<body>
+    <!-- 主要是表格的使用 
+    1.和其他块一样 只是好区分
+    注意table 要设大小 我当初table没设 tbody设100% 它不等于table设100%
+    所以因为我table没设100% 它没一个tr里的th或者td没有平均分 只是原本
+    内联元素多大就占多大 所以不齐
+    2.注意 一开始table设置了text-align center 图片还是不对齐
+    因为我a标签设置了display block  块状的标签不设大小默认占一行全部范围
+    你设一个 弄个背景就发现是整一行 所以它是text-align了 只是默认占全部
+    所以要设置line-block
+ -->
+    <div class="card">
+        <div class="Ccard">
+            <div class="cardFrom">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>选择</th>
+                            <th>商品号</th>
+                            <th>图片</th>
+                            <th>名称</th>
+                            <th>价格</th>
+                            <th>版本</th>
+                            <th>颜色</th>
+                            <th>结算</th>
+                            <th>删除</th>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="J_check" checked=true></td>
+                            <td><span class="id">1625037423235352832</span> </td>
+                            <td><a href="#" class="img"><img src="./xiaomi.png"></a></td>
+                            <td><span class="name">小米9 SE</span> </td>
+                            <td><span class="price">$1999.00 </span> </td>
+                            <td><span class="version">6GB+128GB</span> </td>
+                            <td><span class="color">全息幻彩蓝</span> </td>
+                            <td><button class="butn">结算</button></td>
+                            <td><button class="butn">删除</button></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-bar">
+                <span class="card-price">$1999.00</span>
+                <button class="submitAll">结算</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

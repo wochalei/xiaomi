@@ -1,0 +1,19 @@
+.order{
+    width: 100%;
+    background-color: #fff;
+}
+.Corder{
+    width: 1226px;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    font-size: 16px;
+}
+th{
+    height: 70px;
+    border-bottom: 1px solid #9999;
+}
+.order-price{
+    color: #f20;
+}

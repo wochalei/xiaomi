@@ -1,0 +1,10 @@
+.header_body{
+    display: flex;
+    
+    align-items: center;
+   
+    height: 100px;
+}
+.header{
+    background-color: #ffff;
+}

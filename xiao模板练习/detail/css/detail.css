@@ -1,0 +1,68 @@
+.detail{
+    width: 100%;
+    height: 650px;
+    background-color: white;
+}
+.Cdetail{
+    height: 100%;
+    width: 1226px;
+    padding: 20px 0; 
+    display: flex;
+    margin: 0 auto;
+    
+}
+.left{
+  flex-grow: 1;
+  
+   height: 560px;
+   overflow: hidden;
+}
+.left img{
+    width: 100%;
+    
+}
+.right{
+    flex-grow: 1;
+  
+   height: 560px;
+}
+.name{
+    font-size: 2em;
+    font-weight: normal;
+}
+.slogan{
+    color: #999;
+    margin-top: 10px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+.price{
+    color: red;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.detail-title{
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.content{
+   
+    width: 608px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn{
+    margin-top:30px;
+    height: 40px;
+}
+.btn-item{
+    height: 100%;
+    float: right;
+    width: 150px;
+    background-color: red;
+    margin-right: 10px;
+    color: white;
+}

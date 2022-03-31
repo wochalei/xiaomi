@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/logo.css">
+  <link rel="stylesheet" href="./css/nav.css">
+  <link rel="stylesheet" href="./css/search.css">
+  <link rel="stylesheet" href="./css/nav_menu.css">
+  <link rel="stylesheet" href="./css/nav_menu_item.css">
+  
+  
+</head>
+
+<body>
+  <!-- 总结
+  1.nav-menu那的竖线可以通过伪类实现 至于第一个为啥没有 可以通过添加类first重写去掉
+  2.overflow hidden 就是隐藏超出自身范围的内容 这个太久没用忘了
+  3.当想用弹性布局的时候 如果每个子元素距离有固定的位置 除非你计算好了宽是多少那么
+  你才能用 justify-content直接写 但是注意这个得元素齐全 偶尔元素一会一个一会多个
+  那么这种布局就一会居中一会正常
+  所以就不写分布布局 直接display flex 使其 变弹性盒子自己margin之类去移动
+  这个不直接flaot 浮动好 因为 它不会高度塌陷  用浮动也行记得清除浮动
+  4.它这布局分两块 一块100% 里面那块固定1226px 这样当页面大小调整使 会慢慢缩但是只影响外面那块
+  里面那个固定了不影响
+  5.还有多个input记得用个from套住方便管理
+  6.之所以慢是因为大小位置都不知道所以不像，这个没关系的
+  7.触摸下滑的时候注意 触发的应该是父级然后下滑 我之前做过的类似冒泡的选择 这样鼠标滑下去的时候下拉不会上去
+  8.缺点类名规划不太行，而且注意css样式设的类名  和专门给js选择设的类名  不要把专门给js选择设的类名写到
+  css文件里 区分开比较好
+  -->
+  <header class="header ">
+    <div class="header_body contain">
+      <div class="logo"><a class="logo-link" href="#"></a></div>
+      <div class="nav">
+        <div class="nav-item"><a href="#">SE   </a> </div>
+        <div class="nav-item"><a href="#">PLAY </a> </div>
+        <div class="nav-item"><a href="#">MIX  </a> </div>
+        <div class="nav-item"><a href="#">小米  </a> </div>
+        <div class="nav-item"><a href="#">MAX   </a> </div>
+        <div class="nav-item"><a href="#">REDMI </a> </div>
+        <div class="nav-item"><a href="#">NOTE </a> </div>
+        <div class="nav-item"><a href="#">K     </a></div>
+        <div class="nav-item"><a href="#">黑鲨  </a></div>
+        <div class="nav-item"><a href="#">CC    </a></div>
+        <div class="nav-menu">
+          <ul class="contain">
+            <li class="nav-menu-item first ">
+              <a href="#">
+                <div class="nav-menu-item-img "><img src="./images/xiaomi.png"></div>
+                <div class="nav-menu-item-info">
+                  <h3>小米3</h3>
+                  <p>1999元起</p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#">
+                <div class="nav-menu-item-img"><img src="./images/xiaomi.png"></div>
+                <div class="nav-menu-item-info">
+                  <h3>小米3</h3>
+                  <p>1999元起</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="search"><form id="J_search" action="./list.html">
+         <input type="text" id="J_text" placeholder="请输入手机名称">
+         <input type="button" id="J_button">
+      </form></div>
+    </div>
+  </header>
+</body>
+
+</html>

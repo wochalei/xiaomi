@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+    list-style: none;
+    
+   
+    
+}
+html{
+    font-size: 12px;
+    background-color:#f5f5f5 ;
+}
+input,
+button{
+   outline: none;
+   border: none;
+}
+.contain{
+    width: 1226px;
+    margin: 0 auto;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}

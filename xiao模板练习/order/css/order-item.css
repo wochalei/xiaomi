@@ -1,0 +1,12 @@
+td{
+     text-align: center;
+    border-bottom: 1px solid #9999;
+}
+.order-img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+}
+.order-img img{
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+.item{
+    position: relative;
+    width: 300px;
+    height: 44px;
+    border: solid 1px #ddd;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+.item-price{
+   position: absolute;
+   right: 16px;
+}
+.active{
+    border: solid 1px red;
+}

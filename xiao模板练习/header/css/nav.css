@@ -1,0 +1,24 @@
+.nav{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   
+   margin-left: 50px;
+}
+.nav-item{
+   width: 75px;
+   height: 100px;
+    line-height: 100px;
+}
+.nav-item a{
+    font-size: 18px ;
+    color: black;
+}
+.nav-item:hover a{
+    color: red;
+}
+.nav:hover .nav-menu{
+    height: 226px;
+    box-shadow: 0 10px 10px #999;
+}

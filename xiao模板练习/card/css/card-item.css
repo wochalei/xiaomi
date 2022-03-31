@@ -1,0 +1,28 @@
+.img{
+    /* 之前图片补对齐是因为默认block占一行 */
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    
+}
+.img img{
+    width: 100%;
+    
+}
+th{
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+td{
+    text-align:center;  
+    border-bottom: 1px solid #ddd;
+}
+
+.butn{
+    width: 60px;
+    height: 30px;
+    background-color: #ff6700;
+    color: #fff;
+    font-size: 14px;
+}
+

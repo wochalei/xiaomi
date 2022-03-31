@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="./css/carousel.css">
+  <link rel="stylesheet" href="./css/imge.css">
+  <link rel="stylesheet" href="./css/button.css">
+  <link rel="stylesheet" href="./css/dot.css">
+</head>
+<body>
+    <div class="carousel">
+        <div class="Jcontain">
+            <div class="carousel-imges J_imges">
+                <div class="carousel-imges-item  current"><img src="./img/1.jpg" alt=""></div>
+                <div class="carousel-imges-item "><img src="./img/2.jpg" alt=""></div>
+                
+            </div>
+            <div class="carousel-buttons">
+                <button class="carousel-button-prev carousel-button" data-flag="prev"></button>
+                <button class="carousel-button-next carousel-button" data-flag="next"></button>
+            </div>
+            <div class="carousel-dot">
+                <a href="#" class="carousel-dot-item choose"></a>
+                <a href="#" class="carousel-dot-item"></a>
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
+<script>
+    let lunbo=new Carousel();
+    lunbo.init();
+</script>

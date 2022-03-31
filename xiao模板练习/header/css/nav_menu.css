@@ -1,0 +1,12 @@
+.nav-menu{
+    position: absolute;
+    background-color: #ffff;
+    top: 100px;
+    height: 0px;
+    width: 100%;
+    left: 0;
+    transition: all .3s ease-in-out .2s;
+    border-top:  1px solid #ddd;
+    z-index: 2;
+   overflow: hidden;
+}

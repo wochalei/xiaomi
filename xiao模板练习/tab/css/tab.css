@@ -1,0 +1,51 @@
+.tab{
+    width: 100%;
+    height: 120px;
+   border: 1px solid #ddd ;
+}
+.Jtab{
+    width: 1142px;
+    height: 100%;
+    margin: 0 auto;
+}
+.tab-row{
+    display: flex;
+}
+.tab-row a{
+    font-size: 14px;
+}
+.tab-row a:hover{
+    color: red;
+}
+.tab-title{
+    width: 100px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+    color: #9999;
+}
+
+.tab-search{
+    display: flex;
+    align-items: center;
+}
+.tab-bar{
+    width: 200px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border:1px solid #ddd  ;
+}
+.imge{
+    width: 30px;
+    height: 24px;
+}
+.imge img{
+    height: 100%;
+    transform: translateX(3px);
+}
+#J_search{
+  flex-grow: 1;
+   height: 36px;
+   text-indent: 10px;
+}
